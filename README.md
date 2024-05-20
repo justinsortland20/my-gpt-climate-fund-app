@@ -2,25 +2,25 @@
 
 ## Summary
 
-# What the code is doing
+# What the code does
 
 Editable text box that renders Markdown text as HTML
 Save and Cancel buttons used for editing text
 
-### Structure and function
+### Structure and function of code
 
 src/App.jsx: Main app component
 src/components/EditableTextBox.jsx: Editable text box component that uses showdown and npm package thats converts markup to HTML.
 src/index.css: Tailwind CSS configuration
 
-### My ChatGPT Prompt:
+### ChatGPT Prompt:
 ```
 The Evanston Climate Fund project is made to allow administrators from various cities to create and customize their own climate fund pages. I use React, Tailwind, and Vite to create this webpage. Can we make a frontend mockup of the web app. 
 
 Make each text box a component that's editable similar to a basic CMS. Admin users  should be able to hover over the text block and click to edit it, replace text, then press save/cancel. We want the text boxes be edited with markup, but after saving being rendered to HTML with the rpm showdown package. Start by creating our web app with site. Tell me the commands to get app running with tailwind.
 ```
 
-### Questions 
+### Task Questions 
 
 #### Does the code work? If not, what's broken?
 
